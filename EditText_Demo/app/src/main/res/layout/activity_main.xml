@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="show"
+        android:onClick="onClick"/>
+    <!-- {@ freeme.xinsi 2017.12.05 Default
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:autoSizeTextType="uniform" />
+    @} -->
+    <!-- {@ freeme.xinsi 2017.12.05 Granularity
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMinTextSize="12sp"
+        android:autoSizeMaxTextSize="100sp"
+        android:autoSizeStepGranularity="2sp"
+        android:background="@color/colorPrimaryDark"/>
+    @} -->
+    <!-- {@ freeme.xinsi 2017.12.05 Preset Sizes
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:autoSizeTextType="uniform"
+        android:autoSizePresetSizes="@array/autosize_text_sizes" />
+    @} -->
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/dancing_script"
+        android:textSize="50sp"
+        android:text="@string/xinsichen"
+        />
+</LinearLayout>
+
+
