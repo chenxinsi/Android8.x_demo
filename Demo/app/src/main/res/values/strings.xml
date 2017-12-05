@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Demo</string>
     <string name="xinsichen">xinsichen</string>
+    <string name="compose_shortcut_short_label1">short</string>
+    <string name="compose_shortcut_long_label1">long</string>
+    <string name="compose_disabled_message1">disbaled</string>
+
 </resources>
